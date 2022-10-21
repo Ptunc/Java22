@@ -13,15 +13,12 @@ public class java22 {
 
         while(bolum!=0){
             bolum/=10;
-            System.out.println(bolum);
             basamak++;
        }
-       System.out.println(basamak);
 
        for(int i=0; i<basamak; i++){
         b = a%10;
         toplam+=b;
-
         a= a/10;
 
        }
