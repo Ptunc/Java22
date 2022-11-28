@@ -23,5 +23,6 @@ public class java22 {
 
        }
        System.out.println(toplam);
+       input.close();
     }
 }
